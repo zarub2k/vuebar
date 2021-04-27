@@ -10,13 +10,21 @@
         {{ vegitable.name }} - {{ vegitable.price }}
       </li>
     </ul>
+    <h3>Loop with subcomponents</h3>
+    <ul>
+    <Vegitable v-for="vegitable in vegitables" :key="vegitable" :vegitable="vegitable"/>
+    </ul>
   </div>
 </template>
 
 <script>
 import { reactive, ref } from "vue";
+import Vegitable from "@/components/core/Vegitable";
 
 export default {
+  components: {
+    Vegitable,
+  },
   setup() {
     const fruits = ref(["Apple", "Banana", "Orange"]);
     const vegitables = reactive([
