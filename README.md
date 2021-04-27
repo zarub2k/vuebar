@@ -5,6 +5,7 @@
 * [x] Simple counter
 * [x] UserInput with methods
 * [x] Twoway binding with v-model
+* [x] Conditional with if and else
 
 ## Commands
 ```

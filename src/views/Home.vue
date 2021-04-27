@@ -5,6 +5,7 @@
     <Counter />
     <UserInput />
     <TwowayBinding />
+    <Conditional />
   </div>
 </template>
 
@@ -14,6 +15,7 @@
 import Counter from "@/components/core/Counter.vue";
 import UserInput from "@/components/core/UserInput";
 import TwowayBinding from "@/components/core/TwowayBinding";
+import Conditional from "@/components/core/Conditional";
 
 export default {
   name: "Home",
@@ -21,6 +23,7 @@ export default {
     Counter,
     UserInput,
     TwowayBinding,
+    Conditional,
   },
 };
 </script>
