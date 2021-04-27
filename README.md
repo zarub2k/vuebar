@@ -2,8 +2,9 @@
 
 ## Features
 ### Core
-* [x] Counter
-* [x] UserInput
+* [x] Simple counter
+* [x] UserInput with methods
+* [x] Twoway binding with v-model
 
 ## Commands
 ```
