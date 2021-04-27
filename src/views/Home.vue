@@ -4,6 +4,7 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <Counter />
     <UserInput />
+    <TwowayBinding />
   </div>
 </template>
 
@@ -12,12 +13,14 @@
 // import HelloWorld from "@/components/HelloWorld";
 import Counter from "@/components/core/Counter.vue";
 import UserInput from "@/components/core/UserInput";
+import TwowayBinding from "@/components/core/TwowayBinding";
 
 export default {
   name: "Home",
   components: {
     Counter,
     UserInput,
+    TwowayBinding,
   },
 };
 </script>
