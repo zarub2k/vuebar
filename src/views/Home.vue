@@ -6,6 +6,7 @@
     <UserInput />
     <TwowayBinding />
     <Conditional />
+    <Loop />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Counter from "@/components/core/Counter.vue";
 import UserInput from "@/components/core/UserInput";
 import TwowayBinding from "@/components/core/TwowayBinding";
 import Conditional from "@/components/core/Conditional";
+import Loop from "@/components/core/Loop";
 
 export default {
   name: "Home",
@@ -24,6 +26,7 @@ export default {
     UserInput,
     TwowayBinding,
     Conditional,
+    Loop,
   },
 };
 </script>
